@@ -5,7 +5,7 @@
       "args": {
         "request": {
           "method": "GET",
-          "path": "https://cdek.ru"
+          "path": "https://ok.ru"
         },
         "client": {
           "static_host": {
