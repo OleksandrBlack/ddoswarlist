@@ -1,11 +1,11 @@
 {
   "jobs": [{
       "type": "http",
-      "count": 22,
+      "count": 443,
       "args": {
         "request": {
           "method": "GET",
-          "path": "http://cdek.ru"
+          "path": "https://cdek.ru"
         },
         "client": {
           "static_host": {
