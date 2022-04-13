@@ -12,3 +12,7 @@ https://nrz.api.sb.mdlp.crpt.ru
 https://nrz.api.mdlp.crpt.ru
 https://ismp.crpt.ru/api/v3/facade/cis/cis_list
 https://ismp.crpt.ru/api/v3/auth/cert/key
+https://ismp.crpt.ru/api/v3/facade/identifytools/listV2
+https://ismp.crpt.ru/api/v4/facade/cis/cis_list
+https://ismp.crpt.ru/api/v4/auth/cert/key
+https://ismp.crpt.ru/api/v4/facade/identifytools/listV2
