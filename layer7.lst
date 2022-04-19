@@ -21,3 +21,10 @@ https://sandbox.crptech.ru/api/v3/auth/cert/key
 https://markirovka.sandbox.crptech.ru/api/v3/true-api/auth/key
 https://markirovka.sandbox.crptech.ru/api/v4/true-api/auth/key
 https://mobile.api.crpt.ru
+https://api.vetrf.ru/ 
+https://api2.vetrf.ru/ 
+https://idp.vetrf.ru/idp/profile/SAML2/POST/SSO?execution=e1s1
+https://suzgrid.crpt.ru/login 
+http://suz2.crpt.ru 
+https://suzgrid.crpt.ru:16443/api/v2/integration/connection 
+https://nrz.api.mdlp.crpt.ru
